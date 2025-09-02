@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS KTP</title>
+    <style>
+        body {
+            display : flex;
+            justify-content : center;
+            align-items : center;
+            background : #f0f0f0;
+            min-height : 100vh;
+        }
+
+        @font-face {
+            font-family : 'ocra';
+            src: url('ocraextended.ttf') format('truetype');
+            font-weight : normal;
+            font-style : normal;
+        }
+
+        .ktp {
+            position : relative;
+            width : 750px;
+            height : 500px;
+            background : url('ktp.png') no-repeat center/cover;
+            border : 2px solid #ccc;
+            box-shadow : 0 0 10px rgba(0,0,0,0.3);
+            font-family : Arial, sans-serif;
+            color : black;
+            padding : 20px;
+        }
+
+        .header {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .field {
+            position : absolute;
+            font-size : 16px;
+            font-weight: 700;
+            opacity: 0.75;
+        }
+        
+        .nik {
+            top : 133px;
+            left : 200px;
+            font-family: 'ocra';
+            font-size : 24px;
+            font-weight : bold;
+        }
+
+        .nama {
+            top : 173px;
+            left : 220px;
+        }
+
+        .ttl {
+            top : 195px;
+            left : 220px;
+        }
+
+        .jk {
+            top : 219px;
+            left : 220px;
+        }
+        
+        .gd {
+            top : 219px;
+            left : 503px;
+        }
+
+        .alamat {
+            top : 243px;
+            left : 220px;
+        }
+
+        .rtrw {
+            top : 266px;
+            left : 220px;
+        }
+
+        .kel {
+            top : 289px;
+            left : 220px;
+        }
+
+        .kec {
+            top : 312px;
+            left : 220px;
+        }
+
+        .agama {
+            top : 335px;
+            left : 220px;
+        }
+
+        .kawin {
+            top : 358px;
+            left : 220px;
+        }
+
+        .pekerjaan {
+            top : 381px;
+            left : 220px;
+        }
+
+        .kewarganegaraan {
+            top : 404px;
+            left : 220px;
+        }
+
+        .berlaku {
+            top : 428px;
+            left : 220px;
+        }
+
+        .tmptsah {
+            top : 396px; 
+            right : 70px;
+        }
+
+        .tglsah {
+            top : 416px;
+            right : 88px;
+        }
+
+        .foto {
+            position : absolute;
+            top : 150px;
+            right : 35px;
+            width : 195px;
+            height : 240px;
+            background : #eee;
+            overflow : hidden;
+            border : 2px solid #ffffff;
+            opacity: 0.9;
+        }
+
+        .foto img {
+            width : 100%;
+            height : 100%;
+            object-fit : cover;
+            object-position: 50% 20%;
+        }
+
+        .ttd {
+            position : absolute;
+            bottom : 150px;
+            right : 440px;
+            width : 100px;
+            height : 60px;
+            overflow : hidden
+        }
+
+        .ttd img {
+            width : 100%;
+            height : 100%;
+            object-fit : contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="ktp">
+        <div class="header">PROVINSI DKI JAKARTA<br>JAKARTA UTARA</div>
+        <div class="field nik">535240043</div>
+        <div class="field nama">RYAN PRASETYA ARJUNA ALRIYANTO</div>
+        <div class="field ttl">JAKARTA, 06-06-2006</div>
+        <div class="field jk">LAKI-LAKI</div>
+        <div class="field gd">O</div>
+        <div class="field alamat">MANSION CITY HOME MANHATTAN 1010</div>
+        <div class="field rtrw">18/08</div>
+        <div class="field kel">KELAPA GADING BARAT</div>
+        <div class="field kec">KELAPA GADING</div>
+        <div class="field agama">KATHOLIK</div>
+        <div class="field kawin">BELUM KAWIN</div>
+        <div class="field pekerjaan">PELAJAR/MAHASISWA</div>
+        <div class="field kewarganegaraan">INDONESIA</div>
+        <div class="field berlaku">SEUMUR HIDUP</div>
+        <div class="field tmptsah">JAKARTA UTARA</div>
+        <div class="field tglsah">01-09-2025</div>
+
+        <div class="foto">
+            <img src="Foto.jpg" alt="fotoKTP">Foto</div>
+        </div>
+        <div class="ttd">
+            <img src="TTD.png" alt="tanda tangan">Tanda Tangan</div>
+        </div>
+    </div>
+</body>
+</html>
